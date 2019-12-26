@@ -41,9 +41,13 @@ _PREDEFINED_SPLITS_COCO["coco"] = {
     ),
     "coco_2017_train": ("coco/train2017", "coco/annotations/instances_train2017.json"),
     "coco_2017_val": ("coco/val2017", "coco/annotations/instances_val2017.json"),
-    "coco_2017_test": ("coco/test2017", "coco/annotations/image_info_test2017.json"),
-    "coco_2017_test-dev": ("coco/test2017", "coco/annotations/image_info_test-dev2017.json"),
     "coco_2017_val_100": ("coco/val2017", "coco/annotations/instances_val2017_100.json"),
+    "coco_2017_oil_train": (" ", "/gds/zhangjing/detectron2/train-data/train.json"),
+    "coco_2017_oil_trainval": (" ", "/gds/zhangjing/detectron2/train-data/trainval.json"),
+    "coco_2017_oil_val": (" ", "/gds/zhangjing/detectron2/train-data/val.json"),
+    "coco_2017_oil_benchmark_day269": ("/gds/dataset/benchmark_data/haihe/daylight/13_cls_data/JPEGImages_day269", "/gds/dataset/benchmark_data/haihe/daylight/13_cls_data/ImageSets/benchmark_day269.json"),
+    "coco_2017_oil_benchmark_day200": ("/gds/dataset/benchmark_data/haihe/daylight/13_cls_data/JPEGImages_day200", "/gds/dataset/benchmark_data/haihe/daylight/13_cls_data/ImageSets/benchmark_day200.json"),
+    "coco_2017_oil_benchmark_night150": ("/gds/dataset/benchmark_data/haihe/daylight/13_cls_data/JPEGImages_night150", "/gds/dataset/benchmark_data/haihe/daylight/13_cls_data/ImageSets/benchmark_night150.json")
 }
 
 _PREDEFINED_SPLITS_COCO["coco_person"] = {
